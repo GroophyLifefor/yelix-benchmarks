@@ -1,0 +1,15 @@
+{
+  "name": "k6",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "benc:yelix": "k6 run yelix.js",
+    "benc:hono": "k6 run hono.js",
+    "benc:oak": "k6 run oak.js",
+    "benc:express": "k6 run express.js",
+    "benc:fastify": "k6 run fastify.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

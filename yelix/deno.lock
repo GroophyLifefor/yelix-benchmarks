@@ -1,0 +1,57 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@murat/yelix@*": "0.1.35",
+    "jsr:@std/path@1.0.8": "1.0.8",
+    "npm:@scalar/hono-api-reference@0.5.172": "0.5.172_hono@4.7.5",
+    "npm:hono@^4.7.0": "4.7.5"
+  },
+  "jsr": {
+    "@murat/yelix@0.1.35": {
+      "integrity": "9ece6476c379ba92db5d0136b242dfbc2f2b63eaceb7bced4500da96784c6c0a",
+      "dependencies": [
+        "jsr:@std/path",
+        "npm:@scalar/hono-api-reference",
+        "npm:hono"
+      ]
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    }
+  },
+  "npm": {
+    "@scalar/hono-api-reference@0.5.172_hono@4.7.5": {
+      "integrity": "sha512-2fd7PidgQWSzP8IKjApK16aN0lDtcV2muigBO/AIdMUzEowRlDFt6nhqrCDkFerX/6mCqmTewFczo731cL+kHg==",
+      "dependencies": [
+        "@scalar/types",
+        "hono"
+      ]
+    },
+    "@scalar/openapi-types@0.1.7": {
+      "integrity": "sha512-oOTG3JQifg55U3DhKB7WdNIxFnJzbPJe7rqdyWdio977l8IkxQTVmObftJhdNIMvhV2K+1f/bDoMQGu6yTaD0A=="
+    },
+    "@scalar/types@0.0.31": {
+      "integrity": "sha512-xagRDDqqf+tMTtChUggQHIzjMbfHe/3ntiZpF4RDgrU5yA3v/eYFwLjb+OgfcMpU1c02FSUeKa6FN7e7DZcXgg==",
+      "dependencies": [
+        "@scalar/openapi-types",
+        "@unhead/schema"
+      ]
+    },
+    "@unhead/schema@1.11.20": {
+      "integrity": "sha512-0zWykKAaJdm+/Y7yi/Yds20PrUK7XabLe9c3IRcjnwYmSWY6z0Cr19VIs3ozCj8P+GhR+/TI2mwtGlueCEYouA==",
+      "dependencies": [
+        "hookable",
+        "zhead"
+      ]
+    },
+    "hono@4.7.5": {
+      "integrity": "sha512-fDOK5W2C1vZACsgLONigdZTRZxuBqFtcKh7bUQ5cVSbwI2RWjloJDcgFOVzbQrlI6pCmhlTsVYZ7zpLj4m4qMQ=="
+    },
+    "hookable@5.5.3": {
+      "integrity": "sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ=="
+    },
+    "zhead@2.2.4": {
+      "integrity": "sha512-8F0OI5dpWIA5IGG5NHUg9staDwz/ZPxZtvGVf01j7vHqSyZ0raHY+78atOVxRqb73AotX22uV1pXt3gYSstGag=="
+    }
+  }
+}
